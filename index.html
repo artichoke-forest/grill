@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When Is Grill Boyz?</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ff9900;
+            color: #ff0000;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn-icons-png.flaticon.com/512/3075/3075977.png');
+            background-repeat: repeat;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 153, 0.8);
+            border: 8px solid #ff3300;
+            border-radius: 20px;
+            box-shadow: 10px 10px 0 #000;
+            margin-top: 50px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            text-shadow: 4px 4px 0 #000;
+            color: #ff3300;
+            margin-bottom: 30px;
+            animation: blink 1s infinite;
+        }
+        
+        .info {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 30px 0;
+            text-shadow: 2px 2px 0 #000;
+        }
+        
+        .label {
+            color: #0000ff;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .value {
+            color: #006600;
+            background-color: #ffff66;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            border: 3px dashed #ff0000;
+        }
+        
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .images img {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            border: 5px solid #ff3300;
+            border-radius: 15px;
+            transform: rotate(5deg);
+            transition: transform 0.3s;
+        }
+        
+        .images img:nth-child(odd) {
+            transform: rotate(-5deg);
+        }
+        
+        .images img:hover {
+            transform: scale(1.1) rotate(0);
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .marquee {
+            background-color: #ff3300;
+            color: #ffff00;
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        .marquee span {
+            display: inline-block;
+            animation: marquee 15s linear infinite;
+        }
+        
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #ffffff;
+            text-shadow: 1px 1px 0 #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WHEN IS GRILL BOYZ?</h1>
+        
+        <div class="marquee">
+            <span>🔥 GRILL BOYZ 2025 🔥 BURGERS 🍔 HOT DOGS 🌭 BEER 🍺 GOOD TIMES 😎 GRILL BOYZ 2025 🔥</span>
+        </div>
+        
+        <div class="images">
+            <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Burger">
+            <img src="https://cdn-icons-png.flaticon.com/512/2515/2515263.png" alt="Vegetables">
+            <img src="https://cdn-icons-png.flaticon.com/512/931/931949.png" alt="Beer">
+            <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="BBQ">
+        </div>
+        
+        <div class="info">
+            <span class="label">When:</span>
+            <span class="value">Friday, April 18. 4-7 p.m.</span>
+        </div>
+        
+        <div class="info">
+            <span class="label">Where:</span>
+            <span class="value">Prospect Park</span>
+        </div>
+        
+        <div class="images">
+            <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Burger">
+            <img src="https://cdn-icons-png.flaticon.com/512/2515/2515263.png" alt="Vegetables">
+            <img src="https://cdn-icons-png.flaticon.com/512/931/931949.png" alt="Beer">
+            <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="BBQ">
+        </div>
+        
+        <div class="blink" style="font-size: 2em; margin-top: 30px; color: #0000ff;">
+            DON'T MISS IT!!!
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2025 GRILL BOYZ | Made with 🔥 and 🍔
+    </footer>
+</body>
+</html>
